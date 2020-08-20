@@ -1,0 +1,42 @@
+.filterSec{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 5px;
+    margin: 0 5px 10px 5px;
+}
+.secTitle{
+    font-weight: bold;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+.subTitle{
+    width: 80%;
+    margin: auto;
+    padding: 0 5px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.filterBtn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.filterBtn li{
+    width: 40%;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #c5e09b;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filterBtn li.selected{
+    background-color: #7cba01;
+}

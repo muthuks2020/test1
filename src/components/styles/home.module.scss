@@ -1,0 +1,79 @@
+.column{
+    float: left;
+    width: 25%;
+}
+@media (max-width: 699px) {
+    .column{
+        width: 100%;
+    }
+    .missionDetails{
+        height: unset !important;
+    }
+}
+@media (min-width: 700px) and (max-width: 1023px) {
+    .column{
+        width: 50%;
+    }
+}
+.missionSec{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 5px 10px 5px;
+}
+.imgsec{
+    width: 100%;
+    height: 190px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgsec img{
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+.missionTitle{
+    color:#4d5399;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.missionId{
+    font-weight: bold;
+    margin: 0px;
+}
+.missionIdList{
+    margin:0;
+    padding-left: 30px;
+}
+.missionIdList li{
+    color:#4d5399;
+}
+.missionStatSec{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.missionStatus:last-child{
+    padding-left: 10px;
+}
+.missionStatus{
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 50%;
+    color:#4d5399;
+}
+.missionStatus span{
+    color:#0a0a0a;
+    font-weight: bold;
+}
+.missionDetails{
+    height: 240px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

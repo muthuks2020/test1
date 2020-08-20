@@ -1,0 +1,72 @@
+html {
+    margin: 0;
+    padding: 0;
+    color: #0a0a0a;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body {
+    margin: 0;
+    padding: 0 !important;
+    background-color: #eeeeee !important;
+    font-family: "Quicksand-Regular";
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: normal;
+}
+*,
+*::before,
+*::after {
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+}
+.appContainer{
+    max-width: 1440px;
+    margin: auto;
+}
+.appSpace{
+    padding: 16px;
+}
+.title{
+    font-weight: bold;
+    margin-top: 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.leftColumn {
+    float: left;
+    width: 20%;
+}
+.rightColumn{
+    float: left;
+    width: 80%;
+}
+@media (max-width: 699px) {
+    .leftColumn {
+        width: 100%;
+    }
+    .rightColumn{
+        width: 100%;
+    }
+}
+@media (min-width: 700px) and (max-width: 1023px) {
+    .leftColumn {
+        width: 30%;
+    }
+    .rightColumn{
+        width: 70%;
+    }
+}
+.footerText:first-child{
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
